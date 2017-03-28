@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58E80EB31E8AF2A600E6B49B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E80EB21E8AF2A600E6B49B /* AppDelegate.swift */; };
+		58E80EB51E8AF2A600E6B49B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E80EB41E8AF2A600E6B49B /* ViewController.swift */; };
+		58E80EB81E8AF2A600E6B49B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58E80EB61E8AF2A600E6B49B /* Main.storyboard */; };
+		58E80EBA1E8AF2A700E6B49B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58E80EB91E8AF2A700E6B49B /* Assets.xcassets */; };
+		58E80EBD1E8AF2A700E6B49B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58E80EBB1E8AF2A700E6B49B /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		58E80EAF1E8AF2A600E6B49B /* Eviction Notice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Eviction Notice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58E80EB21E8AF2A600E6B49B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		58E80EB41E8AF2A600E6B49B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		58E80EB71E8AF2A600E6B49B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		58E80EB91E8AF2A700E6B49B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		58E80EBC1E8AF2A700E6B49B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		58E80EBE1E8AF2A700E6B49B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58E80EAC1E8AF2A600E6B49B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58E80EA61E8AF2A600E6B49B = {
+			isa = PBXGroup;
+			children = (
+				58E80EB11E8AF2A600E6B49B /* Eviction Notice */,
+				58E80EB01E8AF2A600E6B49B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		58E80EB01E8AF2A600E6B49B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58E80EAF1E8AF2A600E6B49B /* Eviction Notice.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58E80EB11E8AF2A600E6B49B /* Eviction Notice */ = {
+			isa = PBXGroup;
+			children = (
+				58E80EB21E8AF2A600E6B49B /* AppDelegate.swift */,
+				58E80EB41E8AF2A600E6B49B /* ViewController.swift */,
+				58E80EB61E8AF2A600E6B49B /* Main.storyboard */,
+				58E80EB91E8AF2A700E6B49B /* Assets.xcassets */,
+				58E80EBB1E8AF2A700E6B49B /* LaunchScreen.storyboard */,
+				58E80EBE1E8AF2A700E6B49B /* Info.plist */,
+			);
+			path = "Eviction Notice";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58E80EAE1E8AF2A600E6B49B /* Eviction Notice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58E80EC11E8AF2A700E6B49B /* Build configuration list for PBXNativeTarget "Eviction Notice" */;
+			buildPhases = (
+				58E80EAB1E8AF2A600E6B49B /* Sources */,
+				58E80EAC1E8AF2A600E6B49B /* Frameworks */,
+				58E80EAD1E8AF2A600E6B49B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Eviction Notice";
+			productName = "Eviction Notice";
+			productReference = 58E80EAF1E8AF2A600E6B49B /* Eviction Notice.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58E80EA71E8AF2A600E6B49B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = FIU;
+				TargetAttributes = {
+					58E80EAE1E8AF2A600E6B49B = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 58E80EAA1E8AF2A600E6B49B /* Build configuration list for PBXProject "Eviction Notice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 58E80EA61E8AF2A600E6B49B;
+			productRefGroup = 58E80EB01E8AF2A600E6B49B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58E80EAE1E8AF2A600E6B49B /* Eviction Notice */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58E80EAD1E8AF2A600E6B49B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58E80EBD1E8AF2A700E6B49B /* LaunchScreen.storyboard in Resources */,
+				58E80EBA1E8AF2A700E6B49B /* Assets.xcassets in Resources */,
+				58E80EB81E8AF2A600E6B49B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58E80EAB1E8AF2A600E6B49B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58E80EB51E8AF2A600E6B49B /* ViewController.swift in Sources */,
+				58E80EB31E8AF2A600E6B49B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		58E80EB61E8AF2A600E6B49B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58E80EB71E8AF2A600E6B49B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		58E80EBB1E8AF2A700E6B49B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58E80EBC1E8AF2A700E6B49B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		58E80EBF1E8AF2A700E6B49B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		58E80EC01E8AF2A700E6B49B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58E80EC21E8AF2A700E6B49B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Eviction Notice/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.fiu.cis.Eviction-Notice";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		58E80EC31E8AF2A700E6B49B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Eviction Notice/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.fiu.cis.Eviction-Notice";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58E80EAA1E8AF2A600E6B49B /* Build configuration list for PBXProject "Eviction Notice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58E80EBF1E8AF2A700E6B49B /* Debug */,
+				58E80EC01E8AF2A700E6B49B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58E80EC11E8AF2A700E6B49B /* Build configuration list for PBXNativeTarget "Eviction Notice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58E80EC21E8AF2A700E6B49B /* Debug */,
+				58E80EC31E8AF2A700E6B49B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58E80EA71E8AF2A600E6B49B /* Project object */;
+}
