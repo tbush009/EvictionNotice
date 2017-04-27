@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15G1108" minimumToolsVersion="Xcode 7.0">
+    <entity name="Client" representedClassName=".Client" syncable="YES">
+        <attribute name="address" attributeType="String" syncable="YES"/>
+        <attribute name="clientNumber" attributeType="String" syncable="YES"/>
+        <attribute name="email" attributeType="String" syncable="YES"/>
+        <attribute name="fax" attributeType="String" syncable="YES"/>
+        <attribute name="name" attributeType="String" syncable="YES"/>
+        <attribute name="phone" attributeType="String" syncable="YES"/>
+        <relationship name="evictions" toMany="YES" deletionRule="Nullify" destinationEntity="Eviction" inverseName="client" inverseEntity="Eviction" syncable="YES"/>
+    </entity>
+    <entity name="Eviction" representedClassName=".Eviction" syncable="YES">
+        <attribute name="address" attributeType="String" syncable="YES"/>
+        <attribute name="cancelDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="caseNumber" attributeType="String" syncable="YES"/>
+        <attribute name="fileNumber" attributeType="String" syncable="YES"/>
+        <attribute name="name" attributeType="String" syncable="YES"/>
+        <attribute name="stageOneDateFiled" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="stageOneDateServed" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="stageTwoDateFiled" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="stageTwoDateJudgementSigned" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="whoCanceled" attributeType="String" syncable="YES"/>
+        <relationship name="client" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Client" inverseName="evictions" inverseEntity="Client" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Client" positionX="-63" positionY="-18" width="128" height="150"/>
+        <element name="Eviction" positionX="-54" positionY="-9" width="128" height="210"/>
+    </elements>
+</model>

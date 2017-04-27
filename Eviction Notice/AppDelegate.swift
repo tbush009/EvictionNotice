@@ -1,9 +1,10 @@
 //
-//  AppDelegate.swift
-//  Eviction Notice
-//
-//  Created by travis william bush on 3/28/17.
-//  Copyright © 2017 FIU. All rights reserved.
+//  PROGRAMMERS: Jorge Guevara, Travis Bush
+//  PANTHERID:   3809308, 2485903
+//  CLASS:       COP 465501 TR 5:00
+//  INSTRUCTOR:  Steve Luis ECS 282
+//  ASSIGNMENT:  Final Project
+//  DUE:         Thursday 04/27/17
 //
 
 import UIKit
@@ -13,9 +14,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        let coreDataStack = CoreDataStack(modelName: "EvictionNotice")
+        
+        // assign initial settings
+        let defaults = ["clientFilter": "name", "evictionFilter": "name"]
+        NSUserDefaults.standardUserDefaults().registerDefaults(defaults)
+        
+        // give client view the core data stack
+        let navViewController = window!.rootViewController as! UINavigationController
+        let clientViewController = navViewController.topViewController as! ClientViewController
+        clientViewController.coreDataStack = coreDataStack
+        
         return true
     }
 

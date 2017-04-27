@@ -7,21 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		174A76691EA2AA0200F11581 /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174A76681EA2AA0200F11581 /* DatePickerViewController.swift */; };
+		174A766B1EA2BEAA00F11581 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174A766A1EA2BEAA00F11581 /* ImageViewController.swift */; };
+		5828F07A1E98375100F65788 /* EvictionNotice.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5828F0781E98375100F65788 /* EvictionNotice.xcdatamodeld */; };
+		5828F0801E98398C00F65788 /* Eviction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5828F07C1E98398C00F65788 /* Eviction.swift */; };
+		5828F0821E98398C00F65788 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5828F07E1E98398C00F65788 /* Client.swift */; };
+		5828F0C91E983EE600F65788 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5828F0C81E983EE600F65788 /* CoreDataStack.swift */; };
+		5828F0CB1E983F0D00F65788 /* ImageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5828F0CA1E983F0D00F65788 /* ImageStore.swift */; };
+		585CDB911EAC1AEC00E16683 /* Client+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585CDB8F1EAC1AEC00E16683 /* Client+CoreDataProperties.swift */; };
+		585CDB921EAC1AEC00E16683 /* Eviction+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585CDB901EAC1AEC00E16683 /* Eviction+CoreDataProperties.swift */; };
+		5877351D1E99865700A71D7B /* ClientDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5877351C1E99865700A71D7B /* ClientDetailViewController.swift */; };
+		587735211E998FA300A71D7B /* EvictionDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587735201E998FA300A71D7B /* EvictionDetailViewController.swift */; };
+		587735231E99901400A71D7B /* ClientStatisticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587735221E99901400A71D7B /* ClientStatisticsViewController.swift */; };
 		58E80EB31E8AF2A600E6B49B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E80EB21E8AF2A600E6B49B /* AppDelegate.swift */; };
-		58E80EB51E8AF2A600E6B49B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E80EB41E8AF2A600E6B49B /* ViewController.swift */; };
 		58E80EB81E8AF2A600E6B49B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58E80EB61E8AF2A600E6B49B /* Main.storyboard */; };
 		58E80EBA1E8AF2A700E6B49B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58E80EB91E8AF2A700E6B49B /* Assets.xcassets */; };
 		58E80EBD1E8AF2A700E6B49B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58E80EBB1E8AF2A700E6B49B /* LaunchScreen.storyboard */; };
+		58E80EC51E8AF30900E6B49B /* ClientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E80EC41E8AF30900E6B49B /* ClientViewController.swift */; };
+		58E80ED11E8AF71900E6B49B /* EvictionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E80ED01E8AF71900E6B49B /* EvictionViewController.swift */; };
+		58F2D9281E9C1B6D00F508A0 /* StatsBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F2D9271E9C1B6D00F508A0 /* StatsBox.swift */; };
+		58F797011EA9B13B0091C2FE /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 58F797001EA9B13B0091C2FE /* Settings.bundle */; };
+		D8F3C60A1EABE61D00A4CFD5 /* EvictionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F3C6091EABE61D00A4CFD5 /* EvictionCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		174A76681EA2AA0200F11581 /* DatePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
+		174A766A1EA2BEAA00F11581 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		5828F0791E98375100F65788 /* EvictionNotice.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EvictionNotice.xcdatamodel; sourceTree = "<group>"; };
+		5828F07C1E98398C00F65788 /* Eviction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Eviction.swift; sourceTree = "<group>"; };
+		5828F07E1E98398C00F65788 /* Client.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		5828F0C81E983EE600F65788 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		5828F0CA1E983F0D00F65788 /* ImageStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageStore.swift; sourceTree = "<group>"; };
+		585CDB8F1EAC1AEC00E16683 /* Client+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Client+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		585CDB901EAC1AEC00E16683 /* Eviction+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Eviction+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		5877351C1E99865700A71D7B /* ClientDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientDetailViewController.swift; sourceTree = "<group>"; };
+		587735201E998FA300A71D7B /* EvictionDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EvictionDetailViewController.swift; sourceTree = "<group>"; };
+		587735221E99901400A71D7B /* ClientStatisticsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientStatisticsViewController.swift; sourceTree = "<group>"; };
 		58E80EAF1E8AF2A600E6B49B /* Eviction Notice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Eviction Notice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58E80EB21E8AF2A600E6B49B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		58E80EB41E8AF2A600E6B49B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		58E80EB71E8AF2A600E6B49B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		58E80EB91E8AF2A700E6B49B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58E80EBC1E8AF2A700E6B49B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		58E80EBE1E8AF2A700E6B49B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58E80EC41E8AF30900E6B49B /* ClientViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientViewController.swift; sourceTree = "<group>"; };
+		58E80ED01E8AF71900E6B49B /* EvictionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EvictionViewController.swift; sourceTree = "<group>"; };
+		58F2D9271E9C1B6D00F508A0 /* StatsBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatsBox.swift; sourceTree = "<group>"; };
+		58F797001EA9B13B0091C2FE /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		D8F3C6091EABE61D00A4CFD5 /* EvictionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EvictionCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +87,27 @@
 			isa = PBXGroup;
 			children = (
 				58E80EB21E8AF2A600E6B49B /* AppDelegate.swift */,
-				58E80EB41E8AF2A600E6B49B /* ViewController.swift */,
+				58E80EC41E8AF30900E6B49B /* ClientViewController.swift */,
+				5877351C1E99865700A71D7B /* ClientDetailViewController.swift */,
+				587735221E99901400A71D7B /* ClientStatisticsViewController.swift */,
+				58E80ED01E8AF71900E6B49B /* EvictionViewController.swift */,
+				587735201E998FA300A71D7B /* EvictionDetailViewController.swift */,
 				58E80EB61E8AF2A600E6B49B /* Main.storyboard */,
+				D8F3C6091EABE61D00A4CFD5 /* EvictionCell.swift */,
+				174A766A1EA2BEAA00F11581 /* ImageViewController.swift */,
+				174A76681EA2AA0200F11581 /* DatePickerViewController.swift */,
 				58E80EB91E8AF2A700E6B49B /* Assets.xcassets */,
+				58F797001EA9B13B0091C2FE /* Settings.bundle */,
 				58E80EBB1E8AF2A700E6B49B /* LaunchScreen.storyboard */,
 				58E80EBE1E8AF2A700E6B49B /* Info.plist */,
+				5828F0781E98375100F65788 /* EvictionNotice.xcdatamodeld */,
+				585CDB901EAC1AEC00E16683 /* Eviction+CoreDataProperties.swift */,
+				5828F07C1E98398C00F65788 /* Eviction.swift */,
+				585CDB8F1EAC1AEC00E16683 /* Client+CoreDataProperties.swift */,
+				5828F07E1E98398C00F65788 /* Client.swift */,
+				5828F0C81E983EE600F65788 /* CoreDataStack.swift */,
+				5828F0CA1E983F0D00F65788 /* ImageStore.swift */,
+				58F2D9271E9C1B6D00F508A0 /* StatsBox.swift */,
 			);
 			path = "Eviction Notice";
 			sourceTree = "<group>";
@@ -96,6 +144,7 @@
 				TargetAttributes = {
 					58E80EAE1E8AF2A600E6B49B = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = RC5ALS83JM;
 					};
 				};
 			};
@@ -122,6 +171,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58F797011EA9B13B0091C2FE /* Settings.bundle in Resources */,
 				58E80EBD1E8AF2A700E6B49B /* LaunchScreen.storyboard in Resources */,
 				58E80EBA1E8AF2A700E6B49B /* Assets.xcassets in Resources */,
 				58E80EB81E8AF2A600E6B49B /* Main.storyboard in Resources */,
@@ -135,8 +185,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58E80EB51E8AF2A600E6B49B /* ViewController.swift in Sources */,
+				587735211E998FA300A71D7B /* EvictionDetailViewController.swift in Sources */,
+				5877351D1E99865700A71D7B /* ClientDetailViewController.swift in Sources */,
+				174A766B1EA2BEAA00F11581 /* ImageViewController.swift in Sources */,
+				5828F0821E98398C00F65788 /* Client.swift in Sources */,
+				585CDB911EAC1AEC00E16683 /* Client+CoreDataProperties.swift in Sources */,
+				174A76691EA2AA0200F11581 /* DatePickerViewController.swift in Sources */,
+				58F2D9281E9C1B6D00F508A0 /* StatsBox.swift in Sources */,
+				5828F07A1E98375100F65788 /* EvictionNotice.xcdatamodeld in Sources */,
+				5828F0801E98398C00F65788 /* Eviction.swift in Sources */,
+				5828F0C91E983EE600F65788 /* CoreDataStack.swift in Sources */,
 				58E80EB31E8AF2A600E6B49B /* AppDelegate.swift in Sources */,
+				D8F3C60A1EABE61D00A4CFD5 /* EvictionCell.swift in Sources */,
+				58E80EC51E8AF30900E6B49B /* ClientViewController.swift in Sources */,
+				585CDB921EAC1AEC00E16683 /* Eviction+CoreDataProperties.swift in Sources */,
+				58E80ED11E8AF71900E6B49B /* EvictionViewController.swift in Sources */,
+				5828F0CB1E983F0D00F65788 /* ImageStore.swift in Sources */,
+				587735231E99901400A71D7B /* ClientStatisticsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,10 +316,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Eviction Notice/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "edu.fiu.cis.Eviction-Notice";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.fiu.cis.tbush009.EvictionNotice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -262,10 +330,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Eviction Notice/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "edu.fiu.cis.Eviction-Notice";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.fiu.cis.tbush009.EvictionNotice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -288,8 +359,22 @@
 				58E80EC31E8AF2A700E6B49B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5828F0781E98375100F65788 /* EvictionNotice.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5828F0791E98375100F65788 /* EvictionNotice.xcdatamodel */,
+			);
+			currentVersion = 5828F0791E98375100F65788 /* EvictionNotice.xcdatamodel */;
+			path = EvictionNotice.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 58E80EA71E8AF2A600E6B49B /* Project object */;
 }
